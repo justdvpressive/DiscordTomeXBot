@@ -1,4 +1,4 @@
-tittle TomeXBot
+title TomeXBot
 @echo off
 :l
 node app.js 
