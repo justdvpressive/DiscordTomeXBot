@@ -2,8 +2,8 @@
 
 Même si j'adore les frites (lol) j'aime un peu dev quand sa marche x)
 
-J'ai fait un bot discord en companie de totodelon et Leo qui est encore en dev. le %help est bientôt fini et d'autre chose vont arriver...
+Nous avons fait un bot Discord grâce à Totodelon et Leo (plus Toto mais bon) qui est encore en développement. le %help est bientôt fini mais d'autres choses vont arriver...
 
-Et merci au TotodelonBot / Totodelon ^^ ;)
+Et merci au Totodelon's Bot / Totodelon ^^ ;)
 
-Ce bot est fait en node.js 
+**Language: Node.JS**
