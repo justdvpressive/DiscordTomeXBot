@@ -7,7 +7,7 @@ bot.login(config.token)
 var prefix = config.prefix
 
 bot.on("ready", ready => {
-  console.log("Prêt a servir TomeX")
+  console.log("Prêt à servir mon propriétaire " + bot.users.get(config.owner).tag + " !")
   bot.user.setGame('TomeXBot here ! | %help', 'https://twitch.tv/truexpixels')
   bot.user.setStatus("dnd")
 })
@@ -22,6 +22,8 @@ bot.on("guildMemberAdd", member => {
          .setFooter("Va Lire les Règles ;)")
         })
 })
+
+// CommandHandler
 
 bot.on("message", message => {
   if (message.author.bot) return;
@@ -43,14 +45,14 @@ bot.on("message", message => {
     });
     } catch (err) {
       console.error(err);
-      message.reply(":x: Une erreur est survenue veuillez contacter : <@268431870025269258> :x:  " + err)
+      message.reply(":x: Une erreur est survenue ! Veuillez contacter <@268431870025269258> :x:  ```" + err + "```")
       bot.users.get(config.owner).send("", {
 	      embed: new Discord.RichEmbed()
 	   	  .setTitle(":x: ERREUR :x:")
 		    .setDescription(err)
 		    .setColor("#ff0000")
         .setTimestamp()
-        .setFooter("Voici le nom du joueur qui a rencontrer le problème : " + message.author.tag + " . Voici le nom du serveur : " + message.guild.name)
+        .setFooter("Voici le nom du joueur qui a rencontré le problème : " + message.author.tag + ". Voici le nom du serveur : " + message.guild.name)
  	     });
     }
 });
