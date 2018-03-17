@@ -1,12 +1,8 @@
 # TomeXBot
 
-Même si j'adore les frites (lol) j'aime un peu dev quand sa marche x)
 
-Nous avons fait un bot Discord grâce à Totodelon et Leo (plus Toto mais bon) qui est encore en développement. La command help est bientôt finie mais bien d'autres choses vont arriver...
+The TomeX Bot is Available: **https://discordapp.com/api/oauth2/authorize?client_id=420293087084937226&permissions=8&scope=bot**
 
-Et merci au Totodelon's Bot / Totodelon / PrøBot ^^ ;)
-_Leur GitHub:_
-_**https://github.com/TotoDelon/TotoDelonBot
-https://github.com/ProDiscordBotJS/ProBot-node.js **_
+Language: NodeJS (JavaScript)
 
-**Language: Node.JS**
+Thanks for the help of bots and people: Totodelon's Bot / Totodelon / PrøBot Their GitHub: **https://github.com/TotoDelon/TotoDelonBot / https://github.com/ProDiscordBotJS/ProBot-node.js**
