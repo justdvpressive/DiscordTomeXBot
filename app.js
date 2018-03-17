@@ -7,8 +7,7 @@ bot.login(config.token)
 var prefix = config.prefix
 
 bot.on("ready", ready => {
-  console.log("Prêt à servir mon propriétaire " + bot.users.get(config.owner).tag + " !")
-  bot.user.setGame('TomeXBot here ! | %help', 'https://twitch.tv/truexpixels')
+  console.log("Prêt à servir mon propriétaire TomeX#0733 | " + bot.users.get(config.owner).tag + " !")
   bot.user.setStatus("dnd")
 })
 
