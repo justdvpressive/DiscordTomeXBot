@@ -5,10 +5,9 @@ exports.run = (bot, message, args) => {
     message.delete()
     message.channel.send("", {
         embed: new Discord.RichEmbed()
-        .setTitle("LatiasEmoji")
         .setDescription(args.join(' '))
         .setColor("#f84848")
-        .setTitle("LatiasEmoji")
+        .setTitle("Emoji")
         .setFooter("Demandée par : " + message.author.tag)
       })
 }
