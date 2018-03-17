@@ -5,10 +5,10 @@ exports.run = (bot, message, args) => {
     message.delete()
     message.channel.send("", {
         embed: new Discord.RichEmbed()
-        .setTitle(":ok_hand: Emoji :smile: ")
+        .setTitle("LatiasEmoji")
         .setDescription(args.join(' '))
-        .setColor("#2DC7E4")
-        .setTitle(":ok_hand: Emoji :smile: ")
+        .setColor("#f84848")
+        .setTitle("LatiasEmoji")
         .setFooter("Demandée par : " + message.author.tag)
       })
 }
