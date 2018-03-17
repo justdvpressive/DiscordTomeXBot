@@ -9,7 +9,7 @@ exports.run = (bot, message, args) => {
        embed: new Discord.RichEmbed()
        .setTitle(":page_with_curl: Message :page_with_curl: : ")
        .setDescription(sayMessage)
-       .setColor("#0099ff")
+       .setColor("#009933")
        .setTimestamp()
        .setFooter(message.author.tag)
      });
