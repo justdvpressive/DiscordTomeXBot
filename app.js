@@ -6,13 +6,8 @@ var commandRun = JSON.parse(fs.readFileSync("./commands.json", "utf8"));
 bot.login(config.token)
 var prefix = config.prefix
 
-bot.on("ready", ready => {
-  console.log("Prêt à servir mon propriétaire TomeX#0733 | " + bot.users.get(config.owner).tag + " !")
-  bot.user.setStatus("dnd")
-})
-
 bot.on("guildMemberAdd", member => {
-  member.guild.channels.find("name", "welcome").send("", {
+  member.guild.channels.find("welcome").send("", {
          embed: new Discord.RichEmbed()
          .setTitle("Message de bienvenue :o")
          .setDescription("Bienvenue à <@" + member.id + "> sur " + member.guild.name)
