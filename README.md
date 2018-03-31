@@ -28,6 +28,6 @@ Nous avons fait un bot Discord grâce à Totodelon et Leo (plus Toto mais bon) q
 Et merci au Totodelon's Bot / Totodelon / PrøBot ^^ ;)
 _Leur GitHub:_
 _**https://github.com/TotoDelon/TotoDelonBot
-https://github.com/ProDiscordBotJS/ProBot-node.js **_
+https://github.com/ProDiscordBotJS/ProBot-node.js**_
 
 **Language: Node.JS**
