@@ -44,5 +44,26 @@ exports.run = (bot, message, args) => {
         .setFooter("Demandée par : " + message.author.tag)
       })
  }
- if(args[0] === "")
+ if(args[0] === "Latias" || args[0] === "latias") {
+  message.channel.send("", {
+        embed: new Discord.RichEmbed()
+        .setTitle("Qui est latias ?")
+        .setDescription("Latias est un Pokémon légendaire de type Dragon et Psy de la troisième génération. Premier Pokémon légendaire sexué de genre féminin, Latias forme un duo avec son homologue masculin Latios (le Duo éon ou plus communément Lati@s). Tous deux sont des ambassadeurs de la troisième génération, et sont les stars du cinquième film, « Les Héros Pokémon », sorti le 13 juillet 2002 au Japon.")
+        .setColor("#009933")
+        .setTitle("Qui est latias ?")
+        .setThumbnail("https://i.imgur.com/Y9TXo9q.gif")
+        .setFooter("Demandée par : " + message.author.tag)
+      })
+ }
+ if(args[0] === "pikachu" || args[0] === "Pikachu") {
+  message.channel.send("", {
+        embed: new Discord.RichEmbed()
+        .setTitle("Qui est pikachu ?")
+        .setDescription("Pikachu est un Pokémon Souris de type Électrik apparu dès la première génération. En tant que partenaire de Sacha, héros du dessin animé tiré du jeu, il est le plus célèbre des Pokémon et la mascotte officielle de la licence.")
+        .setColor("#009933")
+        .setTitle("Qui est pikachu ?")
+        .setThumbnail("http://i1263.photobucket.com/albums/ii631/Pokemon-Vampire-Knight-lover/pikachu_.gif")
+        .setFooter("Demandée par : " + message.author.tag)
+      })
+ }
 }
