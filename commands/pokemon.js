@@ -66,4 +66,16 @@ exports.run = (bot, message, args) => {
         .setFooter("Demandée par : " + message.author.tag)
       })
  }
+ if(args[0] === "propose" || args[0] === "Propose") {
+  let pokemon === args.slice(1).join(' ')
+  const cfg = require("../config.json")
+  bot.users.get(cfg.ownerID).send("", {
+   embed: new Discord.RichEmbed()
+   .setTitle("Nouvelle proposition de pokemouille x)")
+   .setColor("#00fff2")
+   .setFooter(message.author.tag)
+   .setDescription(`Voici la proposition: ${pokemon}`)
+   .setTimestamp()
+  })                               
+ }
 }
