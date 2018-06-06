@@ -15,8 +15,8 @@ exports.run = (bot, message, args) => {
             messages = messages.filter(m => m.author.id === filterBy).array().slice(0, amount);
             }
             message.channel.bulkDelete(messages).catch(error => console.log(error.stack));
-            message.reply(`A pus j'ai suprimée ${amount} messages :smilet: !`)
+            message.reply(`oops nothing, its for hentai ? humm ${amount} messages :smilet: !`)
             });
-        } else return message.reply("LES PERMS PAS VRAI MONSIEUR :angry:")
+        } else return message.reply("why you don't have perm :/ @€veryone")
     }
 }
