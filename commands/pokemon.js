@@ -1,3 +1,5 @@
+
+//code by TomeX Helped by TotoDelon
 var Discord = require("discord.js")
 var prefix = "%"
 exports.run = (bot, message, args) => {
