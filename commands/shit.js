@@ -10,7 +10,7 @@ function makePass() {
 }
 exports.run = (bot, message, args) => {
     if (message.content === prefix + "shit") {
-     message.channel.send("Code aléatoire : \n" + makePass())
+     message.channel.send("fuckin shit br0 : \n" + makePass())
    }
 }
 
